@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(226, 233, 236);
+    color: rgb(252, 252, 252);
+    font-family: monospace;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Headings style */
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(138, 9, 9);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px, 2px, 8px, rgba(0, 0, 0, 0.4);
+    margin-top: 60px;
+    margin-bottom: 20 px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #0099cc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* styling for lists */
+ul {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* styling on class */
+
+.intro {
+    background-color: rgb(141, 150, 232);
+    border-radius: 20px;
+}
+
+.experience, .connect {
+    background-color: rgb(108, 177, 233);
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* experience into style blocks */
+
+/* remove bullet point */
+.experience ul {
+    list-style-type: none;
+    padding: 0;
+} 
+
+.connect ul {
+    list-style-type: none;
+    padding: 0;
+} 
+
+.experience li {
+    background-color: #b4b6b6;
+    color:rgb(37, 104, 137);
+    border-left: 6px solid #909394; 
+    padding: 15px 20 px; 
+    margin-bottom: 15 px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(123, 13, 13, 0.2);
+    transition: transform 0.2s ease, background-color 0.2 ease;
+} 
+
+.experience li:hover {
+    transform: translateY(-3px);
+    background-color: black;
+}
+
+/* syle connection links */
+.connect a {
+    display: inline-block;
+    background-color: rgb(110, 91, 174);
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(123, 13, 13, 0.2);
+    transition: transform 0.2s ease, background-color 0.2 ease;
+} 
+
+.connect a:hover {
+    background-color: black;
+    transform: scale(1.05);
+    color: #e5abab;
+}
