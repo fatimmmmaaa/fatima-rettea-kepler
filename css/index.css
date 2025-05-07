@@ -1,3 +1,6 @@
+/* desktop (Default)*/
+
+
 body {
     background-color: rgb(226, 233, 236);
     color: rgb(252, 252, 252);
@@ -95,4 +98,75 @@ ul {
     background-color: black;
     transform: scale(1.05);
     color: #e5abab;
+} 
+
+/* mobile style */ 
+@media  screen and (max-width: 320px){
+    h1{
+        font-size: 36px;
+        color: rgb(91, 7, 7)
+    }
+
+    .experience li {
+        font-size: 14px; 
+        color: rgb(200, 200, 200)
+    }
+
+    .connect a {
+        padding: 8px; 
+        font-size: 14px;
+    }
 }
+
+/* tablet */
+
+@media screen and (min-width: 601px) and (max-with: 1024px) {
+    h1 {
+        font-size: 48px; 
+        color: rgb(100, 20, 20);
+    }
+
+    .experience li {
+        font-size: 16px; 
+        background-color: rgb(180, 180, 180);
+    }
+
+    .connect a {
+        padding: 10px 20px; 
+        font-size: 16px;
+    }
+} 
+
+/* footer style */
+.site-footer {
+    background-color: #1a1a1a;
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    margin-top: 40px;
+}
+
+.site-footer a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+/* copyright to bottom */
+
+footer.site-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 100;
+}
+
+/* skills */ 
