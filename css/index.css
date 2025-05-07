@@ -49,9 +49,7 @@ ul {
     text-align: center;
 }
 
-/* experience into style blocks */
 
-/* remove bullet point */
 .experience ul {
     list-style-type: none;
     padding: 0;
@@ -78,7 +76,6 @@ ul {
     background-color: black;
 }
 
-/* syle connection links */
 .connect a {
     display: inline-block;
     background-color: rgb(110, 91, 174);
@@ -90,6 +87,44 @@ ul {
     box-shadow: 2px 2px 10px rgba(123, 13, 13, 0.2);
     transition: transform 0.2s ease, background-color 0.2 ease;
 } 
+
+.connect a:hover {
+    background-color: black;
+    transform: scale(1.05);
+    color: #e5abab;
+}
+
+
+.connect {
+    background-color: rgb(108, 177, 233);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.connect ul {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 0;
+    list-style-type: none;
+}
+
+.connect li {
+    list-style-type: none;
+}
+
+.connect a {
+    display: inline-block;
+    background-color: rgb(110, 91, 174);
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(123, 13, 13, 0.2);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
 
 .connect a:hover {
     background-color: black;
